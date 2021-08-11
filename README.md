@@ -7,14 +7,14 @@ This project is about eliminating bugs in  a drag&drop puzzle game.
 1. Any puzzle piece (correct or incorrect) can be dropped in any drop zone.
 2. More than one puzzle piece can be dropped in one drop zone.
 3. Function created to allow one piece to one dropzone.
--Solution
+- Solution
 --> Dropzones and puzzle pieces matched via data sets.
 --> Function created to allow one piece to one dropzone
 --> Return statement created to prevent wrong puzzle pieces to be dropped to the dropzone
 4. Background images couldn't be changed.
-Solution --> Background data sets created to match with the bottom icons.
+- Solution --> Background data sets created to match with the bottom icons.
 5. Puzzle sets didn't reset when a new puzzle is selected.
-Solution --> resetPuzzlePieces function created with paren-child properties.
+- Solution --> resetPuzzlePieces function created with paren-child properties.
 
 
 ## License
@@ -30,14 +30,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Burak Turkmen
 
 Interactive Media Design Student, Fanshawe College
-
-
-You can drag and drop any
-puzzle piece into a drop zone - this shouldn’t happen. Only the correct piece should drop in to
-the matching zone, and there should only be one piece in one drop zone at a time.
-The second bug is the problem with pieces appearing in the drop zones on reset / choosing a
-new puzzle. Those should be removed / reparented back to the drag zone as well, so that the
-player has a fresh board to drop onto.
-Solve these two problems. Create a resetPuzzlePieces function to solve the second problem;
-you can use the original drop function to solve the first one. Just extend it to check for
-properties, etc as we’ve been doing in class
