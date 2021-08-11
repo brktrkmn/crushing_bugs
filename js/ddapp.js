@@ -30,10 +30,10 @@
 					dropZones.forEach(zone => {
 						if (zone.children) {
 							puzzleContainer.appendChild(zone.firstElementChild);
+							puzzleContainer.classList.remove('puzzle-dropped')
 						}
-						puzzleContainer.classList.remove('puzzle-dropped');
+						;
 					})
-
 				}
 
 		function startDrag(event) {
